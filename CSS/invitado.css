@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+    margin: 0; 
+    padding: 0;  
+} 
+
+body{
+     background-color: black; 
+} 
+
+/* HEADER*/ /* BARRA NAV Y LOGO*/ 
+header{
+    position: fixed; 
+    background-color: #bd0003; 
+    width: 100%; 
+}
+
+.header-container{
+    margin: auto;
+    max-width: 1700px;
+    padding: 0.5rem; 
+} 
+
+header a{
+    color: white; 
+    text-decoration: none; 
+    padding: 0 1.8rem; 
+    transition: .5s;
+    border-radius: 10px; 
+   
+
+}
+
+header nav a:hover{
+color: #bd0003; 
+background-color: black; 
+font-size: 20px;
+}
+
+h1{
+    display: inline;
+
+} 
+
+nav{
+float: right; 
+ margin: 9px;    
+}
+
+header li {
+    display: inline;
+    list-style: none;
+} 
+
+/*Video con boton*/  
+
+.invite{
+    height: 720px; 
+    font-size: 25px; 
+    
+} 
+
+
+.invite-video{
+    height: 720px; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: -1;   
+}
+
+.invite-video video{
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.dark-overlay{
+    background-color: rgba(0,0, 0, 0.7);
+    width: 100%;
+    height: 100%; 
+} 
+
+.invite-content{
+    color: white; 
+    text-align: center; 
+    padding: 285px 0; 
+    margin: auto; 
+}
+
+.titulo{
+    color: white;
+} 
+
+.boton-2 {
+    display: flex; 
+}
+
+.btn-2{
+    text-decoration: none; 
+    background-color: rgb(185, 49, 49); 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    transition: all .3s ease;
+    margin: auto; 
+    text-align: center;
+}
+
+.btn-2:hover{
+
+    background-color: red; 
+    color: white; 
+    box-shadow: 0 0 5px red, 
+    0 0 20px red, 
+    0 0 60px red,
+    0 0 150px red;
+}
+
+footer{
+    color: white;
+    background-color: black; 
+    text-align: center;
+    height: 2rem 3px; 
+    padding: 1rem;
+}

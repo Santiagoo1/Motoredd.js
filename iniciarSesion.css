@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+.Borde{
+margin: 4rem 60rem 14rem 44rem;
+border: white solid 4px;
+color: red;
+background-color: white;
+height: 335px;
+width: 24%;
+border-radius: 2em;
+text-align: center;
+
+
+}
+
+.Titulo2{
+    text-align: center;
+    font-size: 2cm;
+    color: red;
+}
+
+.Contenedor2{
+
+}
+
+.registrarse{
+    border: #B5B2B2 solid 5px;
+    border-radius: 2em;
+    margin: 82px 20px 47px 20px;
+    font-size: 30px;
+    background-color: #B5B2B2;
+}
+
+.iniciarsesion{
+    border: #B5B2B2 solid 5px;
+    border-radius: 2em;
+    margin: 64px 20px 47px 20px;
+    font-size: 30px;
+    background-color: #B5B2B2;
+}
+
+.invitado{
+    border: #B5B2B2 solid 5px;
+    border-radius: 2em;
+    margin: 60px 20px 47px 20px;
+    font-size: 30px;
+    background-color: #B5B2B2;
+}
+
+.Palabras{
+list-style: none;
+margin: -43px 0px 60px -40px;
+}
+
+a{
+    color: red;
+}
